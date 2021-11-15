@@ -139,7 +139,7 @@ CHANNEL_LAYERS = {
     'default': {
         'BACKEND': 'channels_redis.core.RedisChannelLayer',
         'CONFIG': {
-            'hosts': [('localhost', 6379)],
+            'hosts': [('https://websocket-server-test-ptl.herokuapp.com/', 6379)],
         },
     }
 }
