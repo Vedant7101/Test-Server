@@ -133,8 +133,8 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 CHANNEL_LAYERS = {
     'default': {
         'BACKEND': 'channels_redis.core.RedisChannelLayer',
-        'CONFIG': {
-            'hosts': [('localhost', 6379)],
+        "CONFIG": {
+            "hosts": ["redis://:jDs66Xuia9hoGh2MGMSa2l0zgBCA2I7eDAzCaER0qAA=@channels-redis.redis.cache.windows.net:6379"],
         },
     }
 }
