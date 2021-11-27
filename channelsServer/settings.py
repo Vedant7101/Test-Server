@@ -13,7 +13,7 @@ https://docs.djangoproject.com/en/3.2/ref/settings/
 from pathlib import Path
 import os
 
-DEBUG = False
+# DEBUG = False
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -134,7 +134,7 @@ CHANNEL_LAYERS = {
     'default': {
         'BACKEND': 'channels_redis.core.RedisChannelLayer',
         "CONFIG": {
-            "hosts": ["redis://:jDs66Xuia9hoGh2MGMSa2l0zgBCA2I7eDAzCaER0qAA=@channels-redis.redis.cache.windows.net:6379/0"],
+            "hosts": ["redis://:jDs66Xuia9hoGh2MGMSa2l0zgBCA2I7eDAzCaER0qAA=@channels-redis.redis.cache.windows.net:6379"],
         },
     }
 }
