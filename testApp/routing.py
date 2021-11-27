@@ -3,5 +3,5 @@ from testApp.consumers import *
 
 
 ws_patterns = [
-    path('<name>', Users)
+    path('room/<name>', Users)
 ]
