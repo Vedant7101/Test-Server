@@ -1,1 +1,0 @@
-web: gunicorn channelsServer.wsgi --log-file - 
