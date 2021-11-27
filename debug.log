@@ -3800,3 +3800,18 @@ File C:\Users\vedan\AppData\Local\Programs\Python\Python37\Lib\site-packages\aio
 File C:\Users\vedan\AppData\Local\Programs\Python\Python37\Lib\site-packages\aioredis\commands\scripting.py first seen with mtime 1636289434.0885222
 File C:\Users\vedan\AppData\Local\Programs\Python\Python37\Lib\site-packages\aioredis\abc.py first seen with mtime 1636289434.057325
 WebSocket CONNECT /room/room1 [127.0.0.1:56383]
+File C:\Andon Management\Test Server Git\Test-Server\testApp\routing.py previous mtime: 1638036629.2055616, current mtime: 1638037303.0293925
+C:\Andon Management\Test Server Git\Test-Server\testApp\routing.py notified as changed. Signal results: [(<function template_changed at 0x000002B1429AD9D8>, None), (<function translation_file_changed at 0x000002B1446078C8>, None)].
+C:\Andon Management\Test Server Git\Test-Server\testApp\routing.py changed, reloading.
+Watching for file changes with StatReloader
+Waiting for apps ready_event.
+Apps ready_event triggered. Sending autoreload_started signal.
+Watching dir C:\Andon Management\Test Server Git\Test-Server\testApp\templates with glob **/*.
+Watching dir C:\Andon Management\Test Server Git\Test-Server\locale with glob **/*.mo.
+Watching dir C:\Users\vedan\AppData\Local\Programs\Python\Python37\lib\site-packages\channels\locale with glob **/*.mo.
+Watching dir C:\Andon Management\Test Server Git\Test-Server\testApp\locale with glob **/*.mo.
+(0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+Daphne running, listening on 127.0.0.1:8000
