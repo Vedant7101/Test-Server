@@ -1,1 +1,2 @@
-web: daphne -p 8000 -b 0.0.0.0 my_config.asgi:application
+web: daphne channelsServer.asgi:application --port $PORT --bind 0.0.0.0 -v2
+worker: python manage.py runworker -v2
