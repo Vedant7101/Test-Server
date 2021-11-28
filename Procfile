@@ -1,0 +1,1 @@
+web: daphne channelsServer.asgi:application

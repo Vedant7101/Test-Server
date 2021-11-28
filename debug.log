@@ -4750,3 +4750,83 @@ File C:\Users\vedan\AppData\Local\Programs\Python\Python37\Lib\site-packages\aio
 File C:\Users\vedan\AppData\Local\Programs\Python\Python37\Lib\site-packages\aioredis\commands\generic.py first seen with mtime 1636289434.0885222
 WebSocket CONNECT /room/room1 [127.0.0.1:56480]
 WebSocket DISCONNECT /room/room1 [127.0.0.1:56480]
+Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "c:\users\vedan\appdata\local\programs\python\python37\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "c:\users\vedan\appdata\local\programs\python\python37\lib\site-packages\django\core\handlers\base.py", line 167, in _get_response
+    callback, callback_args, callback_kwargs = self.resolve_request(request)
+  File "c:\users\vedan\appdata\local\programs\python\python37\lib\site-packages\django\core\handlers\base.py", line 290, in resolve_request
+    resolver_match = resolver.resolve(request.path_info)
+  File "c:\users\vedan\appdata\local\programs\python\python37\lib\site-packages\django\urls\resolvers.py", line 585, in resolve
+    raise Resolver404({'tried': tried, 'path': new_path})
+django.urls.exceptions.Resolver404: {'tried': [[<URLResolver <URLPattern list> (admin:admin) 'admin/'>], [<URLResolver <module 'testApp.urls' from '.\\testApp\\urls.py'> (None:None) ''>, <URLPattern ''>]], 'path': 'favicon.ico'}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\users\vedan\appdata\local\programs\python\python37\lib\site-packages\django\template\base.py", line 829, in _resolve_lookup
+    current = current[bit]
+TypeError: 'URLResolver' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\users\vedan\appdata\local\programs\python\python37\lib\site-packages\django\template\base.py", line 837, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'URLResolver' object has no attribute 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\users\vedan\appdata\local\programs\python\python37\lib\site-packages\django\template\base.py", line 843, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\users\vedan\appdata\local\programs\python\python37\lib\site-packages\django\template\base.py", line 850, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [name] in <URLResolver <URLPattern list> (admin:admin) 'admin/'>
+Not Found: /favicon.ico
+Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "c:\users\vedan\appdata\local\programs\python\python37\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "c:\users\vedan\appdata\local\programs\python\python37\lib\site-packages\django\core\handlers\base.py", line 167, in _get_response
+    callback, callback_args, callback_kwargs = self.resolve_request(request)
+  File "c:\users\vedan\appdata\local\programs\python\python37\lib\site-packages\django\core\handlers\base.py", line 290, in resolve_request
+    resolver_match = resolver.resolve(request.path_info)
+  File "c:\users\vedan\appdata\local\programs\python\python37\lib\site-packages\django\urls\resolvers.py", line 585, in resolve
+    raise Resolver404({'tried': tried, 'path': new_path})
+django.urls.exceptions.Resolver404: {'tried': [[<URLResolver <URLPattern list> (admin:admin) 'admin/'>], [<URLResolver <module 'testApp.urls' from '.\\testApp\\urls.py'> (None:None) ''>, <URLPattern ''>]], 'path': 'favicon.ico'}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\users\vedan\appdata\local\programs\python\python37\lib\site-packages\django\template\base.py", line 829, in _resolve_lookup
+    current = current[bit]
+TypeError: 'URLResolver' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\users\vedan\appdata\local\programs\python\python37\lib\site-packages\django\template\base.py", line 837, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'URLResolver' object has no attribute 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\users\vedan\appdata\local\programs\python\python37\lib\site-packages\django\template\base.py", line 843, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\users\vedan\appdata\local\programs\python\python37\lib\site-packages\django\template\base.py", line 850, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [name] in <URLResolver <URLPattern list> (admin:admin) 'admin/'>
+Not Found: /favicon.ico
